@@ -1,0 +1,124 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Review</title>
+<style>
+               body  { background-image: url(re.jpg);
+                 background-position: bottom right;
+                 background-repeat:no-repeat ;
+		 background-size: cover;
+                 background-attachment: fixed;
+                 background-color: LightGrey; 
+                 font-family: arial, sans-serif 
+		  }
+        
+</style>
+   </head>
+
+   <body>
+      <h1>Feedback </h1>
+      <p>Please give suggestions or comments for this meal</p>
+            
+
+         <p>
+            <strong>Witch kind of meal do you like?</strong><br>
+            <label>
+	<input name = " Comb.1" type = "checkbox" 
+		value = "Comb.1">
+		Comb.1		
+               </label>
+
+            <label>
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "Comb.2"></label>Combo.2
+
+            <label>
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "Comb.3"></label> Comb.3
+            <label>
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "Comb.4"></label>Comb.4 
+            <label>
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "Comb.5"></label>Comb.5
+
+            <label>
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "Comb.6"></label>Comb.6
+         </p>
+
+     
+
+
+         <p>
+            <strong>How did you know us?</strong><br>
+
+            <label>
+               <input name = "howtosite" type = "radio"
+                  value = "Google" checked></label>Google
+            <label>
+               <input name = "howtosite" type = "radio" 
+                  value = "yelp"></label> yelp
+            <label>
+               <input name = "howtosite" type = "radio" 
+                  value = "Deitel.com Web site"></label> Deitel.com Web site
+            <label>
+               <input name = "howtosite" type = "radio" 
+                  value = "book"></label>Your friends
+            <label>
+               <input name = "howtosite" type = "radio" 
+                  value = "other"></label>Magazine Advertising
+         </p>
+
+         <p>
+            <label>Rate this meal: 
+
+                <!-- the <select> tag presents a drop-down -->
+                <!-- list with choices indicated by the -->
+                <!-- <option> tags -->
+               <select name = "rating">
+                  <option selected>Amazing</option>
+                  <option>delicous</option>
+                  <option>good</option>
+                  <option>just ok</option>
+                  <option>Not that good</option>
+                  <option>.....</option>
+                  <option>Awful</option>
+               </select>
+            </label>
+         </p>
+
+
+      <form method = "post" action = "file:///C:/FGK/fb.html">
+
+
+         <input type = "hidden" name = "recipient"
+            value = "deitel@deitel.com">
+         <input type = "hidden" name = "subject" 
+            value = "Feedback Form">
+         <input type = "hidden" name = "redirect" 
+            value = "main.html"> 
+         <p><label>Name or Nickname: 
+               <input name = "name" type = "text" size = "20">
+            </label></p>
+ 
+         <!-- <textarea> creates a multiline textbox -->
+         <p><label>leave your suggestions or comments here :)<br>
+            <textarea name = "comments"
+               rows = "4" cols = "36">Enter comments here.</textarea>
+         </label></p>
+
+         <!-- <input type = "password"> inserts a -->
+         <!-- textbox whose display is masked with -->
+         <!-- asterisk characters -->
+         <p><label>E-mail Address(will send coupon every week): 
+            <input name = "email" type = "password"  size = "25">
+         </label></p>  
+         <p>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>  
+ 
+      </form>
+   </body>
+</html>

@@ -1,0 +1,86 @@
+/* nav list */
+header{
+   width: 100%;
+   height: 125px;
+}
+
+header .logo{
+   float: left;
+   margin-top: 50px;
+   width:10%;
+}
+
+header nav{
+   float: left;;
+   margin-top: 2rem;
+}
+
+
+header nav ul li{
+   list-style: none;
+   display: block;
+   float: left;
+   margin-left: 15rem;
+}
+
+header nav ul li a{
+   text-decoration: none;  
+   font-family: "raleway-regular";
+   font-size: 2rem;
+
+   transition:all .2s linear;
+   -webkit-transition:all .2s linear;
+   -moz-transition:all .2s linear;
+   -o-transition:all .2s linear;
+}
+
+header.light nav ul li a{  
+   color:white;
+}
+
+header.light nav ul li a:hover{
+   color:goldenrod;
+}
+
+
+h1{
+margin-top: 0px;
+}
+
+img{
+   border-top-left-radius: 20%;
+   border-bottom-right-radius: 20%;
+   padding: 4rem;
+   margin-left: 25rem;
+}
+
+.floated {
+font-size: 2.9em;
+font-family: arial, helvetica, sans-serif;
+padding: 1rem;
+/* margin-left: .2em; */
+margin-bottom: 0.5rem;
+/* float:top ; */
+text-align: center;
+}
+
+section{
+border: 1px solid skyBlue;
+}
+
+h2 { margin-top: 0px; }    
+.floated2 {
+font-size: 1.7em;
+font-family: arial, helvetica, sans-serif;
+padding: 0em;
+margin-left: 10.2em;
+margin-top: 0em;
+float:top ;
+text-align: left;
+width: 50%; 
+text-shadow: 2px 2px #ff0000;} 
+body	{
+background-color: LightGrey;
+background-image: url(https://costar.brightspotcdn.com/dims4/default/24e7f34/2147483647/strip/true/crop/880x495+0+27/resize/1200x675!/quality/90/?url=http%3A%2F%2Fcostar-brightspot.s3.amazonaws.com%2F01%2Ffc%2Fc046298b47b392a4a8272335485c%2Fgettyimages-511243463-880x548.jpg);
+background-repeat: no-repeat;
+background-size: cover;	}

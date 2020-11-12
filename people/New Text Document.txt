@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Welcome</title>
+ 
+      <style type="text/css">
+ 
+body  { background-image: url(a.jfif);
+                 background-position: bottom right;
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+		background-size: cover;
+                 background-color: LightGre;y }
+         p     { font-size: 18pt;
+                 color: white;
+                 text-indent: 1em;
+                 font-family: arial, sans-serif; }
+         .dark { font-weight: bold; }
+
+h1       { margin-top: 0px; }    
+         .floated { background-color: ;
+                    font-size: 4.5em;
+                    font-family: arial, helvetica, sans-serif;
+                    padding: .2em;
+                    margin-left: .5em;
+                    margin-bottom: .5em;
+                    float:top ;
+                    text-align: right;
+                    width: 55%; }
+</style>
+  </head>
+<h1 class = "floated" style = "font-family: Courier"> Andy Tran<h1/>
+   <body>
+<div align="center">
+<img src="andy.jpg" width="400" alt="this is just a picture"/></p> 
+      <p>My name is Andy Tran. I was born in Viet Nam. I moved to the U.S in 2010. I graduate in Lonestar College in 2018 with associate degree. Then I went to UHD for Computer Science. I choose UHD because UHD has a affordable tuition. During the junior year in University of Houston-downtown. I have learned from the basic of coding, so I can develop my coding skill. The main programming language I have learn in school is C++. I plan to graduate UHD in Fall 2020. I want to work as Software Engineer in my career. Right now, I am working on senior project. I have done some project in my previous classes such as: school management system in Java, Temperature measure in IoT, and club management in Database. In my free time, I listen to music, watch video on YouTube. I sometimes learning on YouTube because I want to explore more new technologies. This is my favorite channel. It shows and explains new technologies in recent.  
+</p>
+   </body>
+</html>

@@ -1,0 +1,94 @@
+body{
+	
+	/* background-color:white; */
+	/* background-color:black; */
+	background: url('../img/falling_star.gif');
+	margin:0;
+	padding:0;
+}
+
+.menu-viewport .container{
+	position:absolute;
+	top:35%;
+	left:50%;
+	width:500px;
+	height:25px;
+	margin:auto;
+}
+
+.menu-viewport .menu{
+	width:922px;
+	height:50px;
+	left:-461px;
+	top:-100px;
+}
+
+
+.menu-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+
+/* In case the back ground color is bright */
+.menu-viewport .go-next-button,
+.menu-viewport .go-back-button{
+	width:22px;
+	height:600px;
+	position:absolute;
+	color: blanchedalmond;
+	top:0;
+}
+
+.menu-viewport .go-next-button{
+	right:-22px;
+	-webkit-border-radius:0 15px 15px 0;
+	-moz-border-radius:0 15px 15px 0;
+	-ms-border-radius:0 15px 15px 0;
+	-o-border-radius:0 15px 15px 0;
+	border-radius:0 15px 15px 0;
+}
+
+.menu-viewport .go-back-button{
+	left:-22px;
+	-webkit-border-radius:15px 0 0 15px;
+	-moz-border-radius:15px 0 0 15px;
+	-ms-border-radius:15px 0 0 15px;
+	-o-border-radius:15px 0 0 15px;
+	border-radius:15px 0 0 15px;
+}
+
+.menu-viewport .go-back-button-hover,
+.menu-viewport .go-next-button-hover{
+	background-color:rgba(0,0,0, 0.2);
+}
+
+.menu-viewport .go-back-button-hover,
+.menu-viewport .go-back-button-down{
+	background-position:-4px 284px;
+	background-repeat:no-repeat;
+}
+
+.menu-viewport .go-back-button-down,
+.menu-viewport .go-next-button-down{
+	background-color:rgba(0,0,0, 0.4);
+}
+
+.menu-viewport .go-next-button-hover,
+.menu-viewport .next-button-down{
+	background-position:-38px 284px;
+	background-repeat:no-repeat;
+}
+
+.menu-viewport .zoom-in .go-next-button,
+.menu-viewport .zoom-in .go-back-button{
+	display:none;
+}
+
